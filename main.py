@@ -5,14 +5,12 @@ try:
     import colorama
     import tls_client
     import httpx
-    import user_agent
     import datetime
 except ModuleNotFoundError:
     os.system("pip install pystyle")
     os.system("pip install colorama")
     os.system("pip install tls_client")
     os.system("pip install httpx")
-    os.system("pip install user_agent")
     os.system("pip install datetime")
 
 from pystyle import Write, System, Colorate, Colors
